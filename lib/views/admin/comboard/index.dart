@@ -67,7 +67,7 @@ class _ComboardAdminScreenState extends State<ComboardAdminScreen> {
                     itemBuilder: (context, index) {
                       final item = data[index];
                       return ComboardCard(
-                        item: item,
+                        item: item, 
                         loginto: "Internal",
                       );
                     },
